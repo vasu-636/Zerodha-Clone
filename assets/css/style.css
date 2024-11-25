@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", serif;
+    font-weight: 500;
+}
+.navbar {
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
+    padding: 25px 0px;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav{
+    justify-content: space-between;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding-left: 40px;
+    color: #666666;
+    transition: all 0.2s linear;
+    font-size: 15px;
+}
+.nav-links ul li:hover{
+    color: #387ed1;
+    cursor: pointer;
+}
+.invest-img{
+    margin: 100px 0px;
+}
+.text-centre{
+    text-align: center;
+}
+.invest-content h2{
+    font-size: 44px;
+    color: #424242;
+}
+.invest-content h3{
+    font-size: 20px;
+    color: #424242;
+    margin-top: 20px;
+}
+.invest-content button{
+    margin-top: 40px;
+    padding: 10px 30px;
+    font-size: 19.2px;
+    background-color: #387ed1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.invest-content button:hover{
+    background-color: black;
+}
+.col-1 {width:8.33%}    
+.col-2 {width:16.66% }    
+.col-3 {width:25%}
+.col-4 {width:33.33%}
+.col-5 {width:41.66%}    
+.col-6 {width:50%}    
+.col-7 {width:58.33%}    
+.col-8 {width:66.66%}
+.col-9 {width:75%}
+.col-10 {width:83.33%}
+.col-11 {width:91.66%}  
+.col-12 {width:100% }
+[class*="col-"] {padding:0 15px}
+.confidence{
+    margin: 150px 0px;
+    display: flex;
+}
+.confidence-content h2{
+    color: #424242;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+.confidence-content h3{
+    color: #424242;
+    font-size: 20px;
+}
+.confidence-content p{
+    margin: 10px 0px 32px;
+    color: #666666;
+    font-size: 16px;
+}
+.confidence-content p span{
+    color: #387ed1;
+}
+.conf-product1 ,.conf-demo{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #387ed1;
+    transition: all 0.2s linear;
+}
+.conf-product1:hover ,.conf-demo:hover{
+    color: black;
+}
+.conf-product1 h5 ,.conf-demo h5{
+    padding-right: 5px;
+}
+.sponsor img{
+   margin-left: 200px;
+   margin-top: 50px;
+}
+.pricing{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.price-content h2{
+    font-size: 32px;
+    color: #424242;
+    margin: 0 0 20px;
+}
+.price-content p{
+    margin: 16px 0 15px;
+    color: #666666;
+}
+.pricing-link{
+    margin: 0 0 15px;
+    padding: 0 0 0 10px;
+    color: #387ed1;
+}
+.pricing-link a{
+    color: #387ed1;
+}
+.price-img{
+    justify-content: space-evenly;
+}
+.acc ,.equity ,.intra{
+    display: flex;
+}
+.acc p ,.equity p{
+    color: #666666;
+    margin-top: 55px;
+    margin-left: -30px;
+    font-size: 10px;
+}
+.varsity{
+    margin-bottom: 120px;
+}
+.varsity-content{
+    margin-top: 50px;
+}
+.varsity-content h2{
+    font-size: 32px;
+    color: #424242;
+    margin-bottom: 20px;
+}
+.varsity-content p{
+    font-size: 16px;
+    color: #666666;
+    margin: 16px 0 20px;
+    line-height: 2;
+}
+.varsity-arrow a ,.varsity-arrow i{
+    color: #387ed1;
+    transition: all 0.2s linear;
+}
+.varsity-arrow a:hover ,.varsity-arrow i:hover{
+    color: black;
+}
+.zerodha h2{
+    color: #424242;
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+.zerodha h4{
+    color: #666666;
+    text-align: center;
+    margin: 16px 0 15px;
+}
+.zerodha button{
+    margin: 20px 0 70px 450px;
+    background-color: #387ed1;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    transition: all 0.2s linear;
+}
+.zerodha button:hover{
+    background-color: black;
+}
+.footer{
+    background-color: #fbfbfb;
+    padding: 30px 0 5px 0;
+    border-top: 1px solid #eee;
+}
+.foot-logo img{
+    margin-bottom: 10px;
+}
+.foot-logo h5{
+    color: #666666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.foot-icon1 ,.foot-icon2{
+    margin-top: 20px;
+}
+.foot-icon1 i , .foot-icon2 i{
+    color: #666666;
+    font-size: 18px;
+    padding-right: 20px;
+}
+.company h2{
+    color: #424242;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+.company ul li{
+    color: #666666;
+    margin-bottom: 10px;
+}
+.footer-content {
+    margin-top: 50px;
+    color: #666666;
+    font-size: 10.4px;
+}
+.footer-content p:nth-child(2) ,.footer-content p:nth-child(4) ,.footer-content p:nth-child(5) ,.footer-content p:last-child{
+    margin-top: 15px;
+}
+.footer-content p:nth-child(3){
+    margin-top: 15px;
+    color: #387ed1;
+    cursor: pointer;
+}
+.foot-nav{
+    margin: 20px 20px;
+}
+.foot-nav nav ul li{
+    display: inline-block;
+    color: #9B9B9B;
+    font-size: 12px;
+    gap: 20px;
+    padding-right: 20px;
+}
+.foot-nav nav ul li:hover{
+    color: #387ed1;
+    cursor: pointer;
+}
